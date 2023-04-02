@@ -1,1 +1,78 @@
-/*Here comes your CSS, you should use styled components finally*/
+body {
+    display:flex; 
+    background-color: #b5d9ff;
+    color: #011E3C;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 99dvw;
+  height: 95dvh;
+  justify-content: center; 
+  align-items: center;   
+
+}
+
+.inputContainer{
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.head-1 {
+  color: rgb(8, 24, 27);
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  width: 30vw;
+  background-color: #011E3C;
+  color:#fff;
+  padding: 15px; 
+  border-bottom: 2px solid #b5d9ff;
+  font-size: 1.3em;
+  margin-right: 10px;
+}
+ 
+
+.list-element {
+  display: flex;
+  align-items: center;   
+}
+
+.list-item:hover {
+  background-color: #fff;
+  color:rgb(8, 24, 27);
+  cursor: pointer;
+}
+
+.trashicon {
+  font-size: 1.3em;
+  cursor: pointer;
+  color:rgb(8, 24, 27);
+}
+.trashicon:hover { 
+  color:rgb(255, 255, 255);
+}
+
+.todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.todo-list {
+  text-decoration: none;
+}
+
+.checked {
+  background-color: rgb(21, 191, 21);
+}
